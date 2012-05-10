@@ -5,6 +5,14 @@ Created:      2012-05-08
 Home page:    <https://metacpan.org/release/Cache-Moustache>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Cache-Moustache>
 
-0.001  2012-05-08  # Initial release
+0.002  2012-05-10  # The Fu-Manchu
+
+ - (Addition Documentation) Mention that keys beginning '~~~~' will not
+   have their values stored.
+ - (Bugfix Documentation) The 'empty' method erroneously asserted that its
+   return value was 0 or 1.
+ - (Bugfix) Cache::CacheTester no longer requires Cache::Cache.
+
+0.001  2012-05-09  # The Salvador Dali
 
 

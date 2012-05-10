@@ -14,12 +14,12 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 44c0fcb62efe71e131c77b44476f59b4712e614d Changes
+SHA1 e5bf10a38ebe3490b0714a7b6058ae37c0eea517 Changes
 SHA1 1d54db0b8134eb1c8ea0cee400f9dc612bcaa61a LICENSE
 SHA1 cda3e3a4818733f8f6b39b4b9e17946265dc6226 MANIFEST
-SHA1 bf95588e2f713540d0fa0e6aa1a43ac0bd62a771 META.yml
+SHA1 8a9c6573c9a1cf791543781967fcb50d341eeb1f META.yml
 SHA1 7150e5e086ef493e1e527a1eeec44a8344b80db6 Makefile.PL
-SHA1 256eaf4670ee00d656fd582b9af3e3d828f539b3 README
+SHA1 31c45e4db6b2c48736a6f726fa60d451d9644f4a README
 SHA1 5d94bc10deff1dd74e4bc5dfa6fc015e39271f15 inc/Module/AutoInstall.pm
 SHA1 40106479d4e07f379cb82ca1d69fca92e3a40f47 inc/Module/Install.pm
 SHA1 34a24a530ecf0365cc02e4150b06c9bed702a441 inc/Module/Install/AutoInstall.pm
@@ -39,18 +39,18 @@ SHA1 6b807287940754cc31a3db59f2b22e363d5525be inc/Module/Package/Dist/RDF.pm
 SHA1 e31c281782183601e1e057c5914f63269e043932 inc/Scalar/Util.pm
 SHA1 5eae2f71c45a996a296d2445b18d0589307111f0 inc/Scalar/Util/PP.pm
 SHA1 eef6bff62046bff2ce08ba132d0b58fba30f40b4 inc/YAML/Tiny.pm
-SHA1 7679cdaac98ab67bb18e7dbf0cbce016ab4f1029 lib/Cache/Moustache.pm
-SHA1 93f263ef922ab1630bac3cd290665ec843633cf0 meta/changes.ttl
+SHA1 c22b18be124b638403432a2314780942b8b04eca lib/Cache/Moustache.pm
+SHA1 b81e4846e03fb2e887aff2512044da7142bfc701 meta/changes.ttl
 SHA1 f0ea4c4a32e1842c6184a2003f9393868cf82733 meta/doap.ttl
 SHA1 6c13a55a74387f9bd32cfe98a5fa909822a104e8 meta/makefile.ttl
 SHA1 06f8e622df438cc7241bdffd2a95c60e5b6c7751 t/01basic.t
 SHA1 077b7cfcacfbf96158b2e59dee04bbe57cd2d7c9 t/02cachetester.t
-SHA1 540a6e48da14d714ebadf8ad51d2579a293a098e t/lib/Cache/BaseCacheTester.pm
-SHA1 fb42d3261f5afa5ebc4953e3bc6ebee6b799847e t/lib/Cache/CacheTester.pm
+SHA1 79795a8caf65b724fd60eb4a9ba20d7248d16af1 t/lib/Cache/BaseCacheTester.pm
+SHA1 0fb4cc398916b2f5a003ad0d77f274995577dc9b t/lib/Cache/CacheTester.pm
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAk+qLYoACgkQzr+BKGoqfTkknwCgk9DzhwwXahkIjZGT3Bg3ydi4
-eEgAnj2MFe+GW76MD2Qujz/2sgyPYOXN
-=jkOr
+iEYEARECAAYFAk+rjfEACgkQzr+BKGoqfTkaGACeKxWdjcVg3SDmOidFd5MJBWOj
+FUYAmweBZF9tDlnUT6VSd3BfIbzeFa3y
+=ayyX
 -----END PGP SIGNATURE-----

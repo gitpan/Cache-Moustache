@@ -60,6 +60,11 @@ DESCRIPTION
         strings like "3 minutes" like what Cache::Cache supports, but I
         don't recommend it.
 
+        Cache::Moustache uses keys beginning with "~~~~" for its own
+        internal purposes. If you try to store a value with a key like that,
+        no error will be thrown, but it will not be stored; the value will
+        effectively expire instantly.
+
     "get($key)"
         Retrieve the value associated with a key (unless it's expired).
 
@@ -69,7 +74,7 @@ DESCRIPTION
 
     "clear"
         Empty everything from the cache. Returns the number of key/value
-        pairs removed (one or none).
+        pairs removed.
 
     "purge"
         Remove any expired key/value pairs from the cache. Returns the
@@ -103,7 +108,7 @@ BUGS
     <http://rt.cpan.org/Dist/Display.html?Queue=Cache-Moustache>.
 
 SEE ALSO
-    CHI, Cache::Cache.
+    CHI, Cache::Cache, <http://www.worldbeardchampionships.com/>.
 
 AUTHOR
     Toby Inkster <tobyink@cpan.org>.
