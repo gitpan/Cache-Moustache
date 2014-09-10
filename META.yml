@@ -2,29 +2,34 @@
 abstract: "you'd have to be insane to use a module called Cache::Moustache, wouldn't you?"
 author:
   - 'Toby Inkster <tobyink@cpan.org>'
+  - 'TOBYINK <tobyink@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
-  Test::More: 0.61
+  Test::More: '0.61'
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 1.02'
+  ExtUtils::MakeMaker: '6.17'
+dynamic_config: 0
+generated_by: 'Dist::Inkt::Profile::TOBYINK version 0.016, CPAN::Meta::Converter version 2.140640'
 keywords: []
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-module_name: Cache::Moustache
+  version: '1.4'
 name: Cache-Moustache
 no_index:
   directory:
+    - eg
+    - examples
     - inc
     - t
     - xt
-requires:
-  perl: 5.005
+optional_features: {}
+provides:
+  Cache::Moustache:
+    file: lib/Cache/Moustache.pm
+    version: '0.003'
 resources:
+  X_identifier: http://purl.org/NET/cpan-uri/dist/Cache-Moustache/project
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Cache-Moustache
   homepage: https://metacpan.org/release/Cache-Moustache
   license: http://dev.perl.org/licenses/
-version: 0.002
+version: '0.003'
