@@ -24,7 +24,7 @@ my $meta = {
                         test => { requires => { "Test::More" => 0.61 } },
                       },
   "provides"       => {
-                        "Cache::Moustache" => { file => "lib/Cache/Moustache.pm", version => 0.003 },
+                        "Cache::Moustache" => { file => "lib/Cache/Moustache.pm", version => 0.004 },
                       },
   "release_status" => "stable",
   "resources"      => {
@@ -33,9 +33,14 @@ my $meta = {
                                         },
                         homepage     => "https://metacpan.org/release/Cache-Moustache",
                         license      => ["http://dev.perl.org/licenses/"],
-                        X_identifier => "http://purl.org/NET/cpan-uri/dist/Cache-Moustache/project",
+                        repository   => {
+                                          type => "git",
+                                          url  => "git://github.com/tobyink/p5-cache-moustache.git",
+                                          web  => "https://github.com/tobyink/p5-cache-moustache",
+                                        },
+                        x_identifier => "http://purl.org/NET/cpan-uri/dist/Cache-Moustache/project",
                       },
-  "version"        => 0.003,
+  "version"        => 0.004,
 };
 
 my %dynamic_config;
