@@ -1,17 +1,20 @@
 package Cache::Moustache;
 
 use 5.005;
-#use strict;
+my $cpants = q/
+use strict;
+use warnings;
+/;
 
 BEGIN {
 	$Cache::Moustache::AUTHORITY = 'cpan:TOBYINK';
-	$Cache::Moustache::VERSION   = '0.004';
+	$Cache::Moustache::VERSION   = '0.005';
 }
 
 sub isa
 {
 	my $what = $_[1];
-	return 1 if {
+	return !!1 if {
 		'Cache'            => 1,
 		'Cache::Cache'     => 1,
 		'Cache::FastMmap'  => 1,
@@ -20,7 +23,7 @@ sub isa
 		'CHI'              => 1,
 		'Mojo::Cache'      => 1,
 	}->{$what};
-	return;
+	return !!0;
 }
 
 sub new
@@ -297,7 +300,7 @@ Toby Inkster E<lt>tobyink@cpan.orgE<gt>.
 
 =head1 COPYRIGHT AND LICENCE
 
-This software is copyright (c) 2012 by Toby Inkster.
+This software is copyright (c) 2012, 2014 by Toby Inkster.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

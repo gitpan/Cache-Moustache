@@ -6,12 +6,24 @@ Home page:    <https://metacpan.org/release/Cache-Moustache>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Cache-Moustache>
 Maintainer:   Toby Inkster <tobyink@cpan.org>
 
-0.004	2014-09-14
+0.005	2014-09-19	The Imperial
+
+ [ Documentation ]
+ - Copyright 2014.
+
+ [ Test Suite ]
+ - Avoid defined(@array) in bundled Cache::CacheTester.
+
+ [ Packaging ]
+ - Declare explicit dependency on Perl 5.005.
+ - Fill in missing moustache styles in changelog.
+
+0.004	2014-09-14	The Handlebar
 
  [ Packaging ]
  - Fix repo link.
 
-0.003	2014-09-10
+0.003	2014-09-10	The Pencil
 
  [ Packaging ]
  - Switch to Dist::Inkt.

@@ -10,7 +10,7 @@ my $meta = {
                         "TOBYINK <tobyink\@cpan.org>",
                       ],
   "dynamic_config" => 0,
-  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.016, CPAN::Meta::Converter version 2.140640",
+  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.023, CPAN::Meta::Converter version 2.140640",
   "keywords"       => [],
   "license"        => ["perl_5"],
   "meta-spec"      => {
@@ -21,10 +21,11 @@ my $meta = {
   "no_index"       => { directory => ["eg", "examples", "inc", "t", "xt"] },
   "prereqs"        => {
                         configure => { requires => { "ExtUtils::MakeMaker" => 6.17 } },
+                        runtime => { requires => { perl => 5.005 } },
                         test => { requires => { "Test::More" => 0.61 } },
                       },
   "provides"       => {
-                        "Cache::Moustache" => { file => "lib/Cache/Moustache.pm", version => 0.004 },
+                        "Cache::Moustache" => { file => "lib/Cache/Moustache.pm", version => 0.005 },
                       },
   "release_status" => "stable",
   "resources"      => {
@@ -40,7 +41,7 @@ my $meta = {
                                         },
                         x_identifier => "http://purl.org/NET/cpan-uri/dist/Cache-Moustache/project",
                       },
-  "version"        => 0.004,
+  "version"        => 0.005,
 };
 
 my %dynamic_config;
